@@ -4,6 +4,7 @@
 Enlaces del curso:
 
 1. Fundamentos HTML: https://www.youtube.com/watch?v=-oK6zL01fNM
+2. Fundamentos CSS: https://www.youtube.com/watch?v=K3xmRF8ab1o
 
 Extensiones VS Code:
 
