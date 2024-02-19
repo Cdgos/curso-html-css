@@ -7,6 +7,8 @@ Extensiones VS Code:
 2. LiveServer
 3. CSS Flexbox Cheatsheet
 
+Configuracion VS Code: https://www.youtube.com/shorts/VUsdD_Clmyw
+
 Enlaces del curso:
 
 1. Fundamentos HTML: https://www.youtube.com/watch?v=-oK6zL01fNM
