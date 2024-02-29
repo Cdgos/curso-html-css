@@ -1,0 +1,36 @@
+/* 
+Selectores Basicos
+1) Etiquetas - son elementos html
+2) Identificadores - atributo id - #
+3) Clases - atributo class - .nombre-clase
+*/
+
+p {
+    color: midnightblue;
+}
+
+/* Dar estilos con id se considera un AntiPatron (Mala practica) */
+#parrafo-dos {
+    background-color: skyblue;
+}
+
+/* Dar estilos con clases nos permite reutilizar nuestro codigo CSS */
+.bg-skyblue {
+    background-color: skyblue;
+}
+
+.bg-steelblue {
+    background-color: steelblue;
+}
+
+.text-20 {
+    font-size: 20px;
+}
+
+.text-32 {
+    font-size: 32px;
+}
+
+.text-white {
+    color: white;
+}

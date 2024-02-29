@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectores avanzados CSS</title>
+    <meta name="description" content="Selectores avanzados CSS">
+    <link rel="stylesheet" href="../css/selectores-avanzados.css">
+</head>
+<body>
+    <button><a href="../index.html">Volver</a></button>
+
+    <h1>Selectores avanzados CSS</h1>
+    <p style="font-weight: bold;">Hijos directos y descendientes, hermanos y adyacente, atributos, universal</p>
+
+    <hr>
+
+    <article>
+        <h3>Hijos directos</h3>
+        <ul class="hijos-directos">
+            <li><b>Primavera</b></li>
+            <li><b>Verano</b></li>
+            <li><b>Otoño</b></li>
+            <li><b>Invierno</b></li>
+        </ul>
+
+        <h3>Hijos descendientes</h3>
+        <ul class="hijos-descendientes">
+            <li><b>Primavera</b></li>
+            <li><b>Verano</b></li>
+            <li><b>Otoño</b></li>
+            <li><b>Invierno</b></li>
+        </ul>
+    </article>
+
+    <article>
+        <h3>Selector de hermanos (en general)</h3>
+        <ul>
+            <li><b>Primavera</b></li>
+            <li class="hermanos-general"><b>Verano</b></li>
+            <li><b>Otoño</b></li>
+            <li><b>Invierno</b></li>
+        </ul>
+
+        <h3>Selector de hermanos adyacente</h3>
+        <ul>
+            <li><b>Primavera</b></li>
+            <li class="hermanos-adyacentes"><b>Verano</b></li>
+            <li><b>Otoño</b></li>
+            <li><b>Invierno</b></li>
+        </ul>
+
+        <h3>Selectores de atributos de las etiquetas html</h3>
+        <nav class="selectores-atributos">
+            <ul>
+                <li><a href="https://jonmircha.com" target="_blank">Inicio</a></li>
+                <li><a class="menu-item cursos button" href="https://jonmircha.com/cursos" target="_blank">Cursos</a></li>
+                <li><a href="http://jonmircha.com/blog" target="_blank">Blog</a></li>
+                <li><a href="https://jonmircha.com/cv" target="_blank">CV</a></li>
+                <li><a class="menu-item notas button" href="https://jonmircha.com/notas" target="_blank">Notas</a></li>
+                <li><a class="menu item ahora button" href="https://jonmircha.com/ahora" target="_blank">Ahora</a></li>
+                <li><a href="../index.html" >Regresar al temario</a></li>
+            </ul>
+        </nav>
+
+    </article>
+
+
+</body>
+</html>

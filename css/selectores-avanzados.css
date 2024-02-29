@@ -1,0 +1,82 @@
+/* 
+Selectores avanzados
+1) Elemento padre > hijos directos
+ul es la etiqueta padre que tiene la clase hijos-directos y le aplicará estilos a la etiqueta
+que le sigue obligatoriamente en este caso > li.
+*/
+
+.hijos-directos > li {
+    background-color: thistle;
+}
+
+/* 2) Selector descendiente: espacio en blanco 
+Aplique estilos a la etiqueta después del espacio en blanco que estén dentro de la clase. No importa
+el orden como los hijos directos
+*/
+
+.hijos-descendientes b {
+    background-color: thistle;
+}
+
+/* 3) Selectores hermanos general: ~ (combinador) 
+Aplica estilos a los hermanos que están por debajo
+*/
+
+.hermanos-general ~ li {
+    background-color: thistle;
+}
+
+/* =============================================================================
+4) Selectores hermanos adyacentes: + 
+Aplica estilos al elemento que sigue del que tiene la clase.
+*/
+
+.hermanos-adyacentes + li {
+    background-color: thistle;
+}
+
+/* =============================================================================
+5) Selectores de atributos: [atributo]
+Aplica estilos al atributo de una etiqueta html
+
+- A los enlaces que tienen el atributo href, dentro de la clase, aplique:
+*/
+
+.selectores-atributos a[href]{
+    color: orangered;
+}
+
+/* A los enlaces (a) que pertenezcan a la clase y tengan el atributo target y este sea
+igual a _blank, aplique:*/
+.selectores-atributos a[target="_blank"] {
+    font-weight: bold;
+}
+
+/* Comodin * aplica si contiene el texto en cuestion ... en cualquier parte:
+A los enlaces que tengan el atr href pero que su valor contenga la palabra jonmircha,
+aplique:
+ */
+.selectores-atributos a[href*="jonmircha"] {
+    font-size: 24px;
+}
+
+/* Comodin ^ circunflejo: Aplica cuando empiecen con el texto ... al INICIO*/
+.selectores-atributos a[href^="http://"] {
+    text-decoration: none;
+    color: blue;
+}
+
+/* Comodin $: Aplica cuando terminen con el texto ... al FINAL*/
+.selectores-atributos a[href$=".com"] {
+    background-color: black;
+}
+
+/* Comodin ~: Aplica si tiene el texto ... en una lista separada por espacios*/
+.selectores-atributos a[class~="cursos"] {
+    background-color: midnightblue;
+}
+
+/* Comodin |: Aplica si tiene el texto ... en una lista separada por espacios y que despues del texto ... pueda venir un guion medio - */
+.selectores-atributos a[class|="menu"] {
+    font-style: italic;
+}
